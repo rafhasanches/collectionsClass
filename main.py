@@ -1,0 +1,32 @@
+#Lists and Tuples
+
+food = ["Bread", "Carrots", "Celery"]
+print(food)
+print(food[1])
+food[0] = ("Ribeye")
+print(food)
+print("The size of my list is ", len(food))
+food.append("Cheese")
+print(food)
+food.insert(1, "Orange")
+print(food)
+food.pop(2)
+print(food)
+food.remove("Cheese")
+print(food)
+food.append("Orange")
+print(food)
+food.clear()
+print(food)
+
+#Tuples in Python
+cars = ("Ford", "Toyota", "Bentley")
+print(cars)
+print(cars[2])
+print(len(cars))
+cars = cars + ("Mercedes",)
+print(cars)
+temp = list(cars)
+temp.remove("Mercedes")
+cars = tuple(temp)
+print(cars)
